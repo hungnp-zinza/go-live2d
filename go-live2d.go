@@ -1,7 +1,7 @@
 package main
 
-import "github.com/hungnp-zinza/go-live2d/cmd"
+import "github.com/hungnp-zinza/go-live2d/http/backend"
 
 func main() {
-	cmd.Serve()
+	backend.Serve()
 }
